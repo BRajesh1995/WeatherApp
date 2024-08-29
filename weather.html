@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="./weathercss.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather">
+        <div class="temp">100</div>
+        <div class="time_location">
+          <p>Hyderabad</p>
+          <span> Random date and time</span>
+        </div>
+        <div class="weather_condition">
+          <p>
+            <img src="" alt="" />
+          </p>
+          <span>Condition</span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <form>
+        <div>
+          <input
+            type="text"
+            placeholder="Search location"
+            class="searchField"
+          />
+          <span class="errorText">Error</span>
+        </div>
+        <button type="submit">Search</button>
+      </form>
+    </footer>
+    <script src="wscript.js"></script>
+  </body>
+</html>
